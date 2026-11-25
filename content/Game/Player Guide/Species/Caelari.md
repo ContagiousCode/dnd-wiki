@@ -1,5 +1,5 @@
 ---
-Type:
+Creature Type:
   - Humanoid
   - Celestial
 Size:
