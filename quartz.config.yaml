@@ -263,6 +263,17 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source: "@quartz-community/obsidian-plugin-ttrpg-tools-maps"
+    enabled: true
+    options:
+      blockLanguage: zoommap
+      inlineBlockHeaderId: ZOOMMAP-DATA
+      maxInlineDataBytes: 0
+      defaultIconKey: pin-red
+    layout:
+      position: right
+      priority: 20
+    order: 55
 layout:
   groups:
     toolbar:
