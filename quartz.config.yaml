@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Planting Seeds
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -217,9 +217,7 @@ plugins:
   - source: "@quartz-community/footer"
     enabled: true
     options:
-      links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+      links: {}
     layout:
       position: footer
       priority: 50
@@ -242,13 +240,26 @@ plugins:
     options:
       includeAll: false
       includedProperties:
-        - description
+        - Pronunciation
+        - Rank
+        - Description
         - aliases
         - Creature Type
         - Size
         - Speed
         - Lifespan
         - Geographic Distribution
+        - Ruler
+        - Leader
+        - Guild Master
+        - Captain
+        - Vice Captain
+        - Lieutenant
+        - Population
+        - Members
+        - Enemies
+        - Allies
+        - tags
       excludedProperties: []
       hidePropertiesView: false
     order: 5
