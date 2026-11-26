@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
   pageTitle: Planting Seeds
-  pageTitleSuffix: ""
+  pageTitleSuffix: "Test Suffix"
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -241,9 +241,8 @@ plugins:
       includeAll: false
       includedProperties:
         - Pronunciation
-        - Rank
         - Description
-        - aliases
+        - Rank
         - Creature Type
         - Size
         - Speed
@@ -259,6 +258,7 @@ plugins:
         - Members
         - Enemies
         - Allies
+        - aliases
         - tags
       excludedProperties: []
       hidePropertiesView: false
@@ -286,7 +286,7 @@ plugins:
       maxInlineDataBytes: 0
       defaultIconKey: pin-red
     layout:
-      position: right
+      position: beforeBody
       priority: 20
     order: 55
 layout:

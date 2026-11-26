@@ -1,7 +1,13 @@
 ---
-title: Welcome
-draft: "false"
+title: Home
 ---
-# test header
+# Game Information
+[[Compendium|Player Guide]]
 
-test content
+
+# World Information
+
+
+
+
+

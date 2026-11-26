@@ -12,4 +12,8 @@ tags:
   - devil
   - king
   - fallen-angel
+infobox:
+  - "Rank: Ruler of the Nine Hells"
+  - "Test: test"
+  - "Gender: Male"
 ---

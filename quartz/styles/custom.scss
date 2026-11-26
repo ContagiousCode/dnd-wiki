@@ -1,3 +1,21 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+@media all and (min-width: 1200px) {
+    .page {
+        max-width: 100%;
+    }
+    .page > #quartz-body {
+        grid-template-columns: 350px auto 500px;
+        margin-left: 0;
+        padding-left: 1rem;
+        margin-right: 0;
+        padding-right: 1rem;
+    }
+}
+
+@media all and (min-width: 800px) and (max-width: 1199px) {
+  .page > #quartz-body {
+    grid-template-columns: 240px auto;
+  }
+}
+
